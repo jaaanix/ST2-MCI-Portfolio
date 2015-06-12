@@ -1,2 +1,1 @@
-[![PDF Status](https://www.sharelatex.com/github/repos/kRITZCREEK/st2portfolio/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/jaaanix/ST2-MCI-Portfolio/builds/latest/output.pdf)
-# ST2-MCI-Portfolio
+[![PDF Status](https://www.sharelatex.com/github/repos/jaaanix/ST2-MCI-Portfolio/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/jaaanix/ST2-MCI-Portfolio/builds/latest/output.pdf)
