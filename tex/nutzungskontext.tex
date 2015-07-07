@@ -46,12 +46,12 @@ Ein weiteres wichtiges Werkzeug in der Mensch-\-Computer-\-Interaktion ist der E
 Personas stellen Prototypen für Gruppen von Nutzern mit konkret ausgeprägten Eigenschaften und einem konkreten Nutzungsverhalten dar. Sie werden später genutzt um User-Stories zu definieren.
 
 \begin{itemize}
-  \item \textbf{Max Mustertyp (25)}, Informatikstudent im 4. Semester, keine physischen Einschränkungen
+  \item \textbf{Max Meister (25)}, Informatikstudent im 4. Semester, keine physischen Einschränkungen
   \item \textbf{Hans Herd (64)}, Firmenvertreter, Besucher an der FH, Rollstuhlfahrer
-  \item \textbf{Hannes Pannes (20)}, Ingenieurwissenschaftenstudent, vor kurzem ein Bein gebrochen
-  \item \textbf{Peter Meter (44)}, Dozent an der FH, Blind
-  \item \textbf{Ali Mali(26)}, Informatik-Austauschstudent, hat sehr eingeschränkte deutsche Sprachkenntnisse
-  \item \textbf{Jürgen Würgen (44)}, externer Elektriker, nutzt einen Werkzeugwagen 
+  \item \textbf{Hubert Glücklich (20)}, Ingenieurwissenschaftenstudent, vor kurzem ein Bein gebrochen
+  \item \textbf{Peter Redemann (44)}, Dozent an der FH, Blind
+  \item \textbf{Ali Atas (26)}, Informatik-Austauschstudent, hat sehr eingeschränkte deutsche Sprachkenntnisse
+  \item \textbf{Jürgen Watt (44)}, externer Elektriker, nutzt einen Werkzeugwagen 
 \end{itemize}
 
 \subsubsection*{User-Stories}
@@ -66,9 +66,9 @@ Basierend auf speziellen Eigenschaften der zuvor konkretisierten User Profiles (
 
 \subsubsection*{Szenarien}
 \begin{enumerate}
-  \item Max Mustertyp hat heute IM-Praktikum, das Praktikum findet in R1234 statt, er hat die Raumnummer im Stundenplan nachgeschaut und möchte sich nun bequem dorthin navigieren lassen. Max startet nun die Navigationsanwendung auf seinem Smartphone und tippt die Raumnummer ein. Nun startet er die Navigation.
-  \item Peter Meter muss gleich eine Vorlesung halten, das Semester hat gerade erst begonnen und seine Vorlesung findet nun in einem anderen, ihm nicht gewohnten Raum statt. Um den Raum zu finden möchte er die Navigationsanwendung auf seinem Smartphone nutzen. Er startet also die Navigations-App und nennt die Raumnummer, welche via Spracheingabe erfasst wird. Mit den Worten “Navigation jetzt starten”, wird er nun per Sprachausgabe an sein Ziel geführt.
-  \item Jürgen Würgen hat den Auftrag einige Lampen im dritten Stock zu tauschen, er war noch nie am Campus Gummersbach und weiß deshalb nicht wo es lang geht. Er fährt auf den Parkplatz des Campus, geht durch den Haupteingang hinein und stellt fest, dass er mit seinem schweren Werkzeugwagen nicht die Treppen hinauf kommt. Um eine alternative Route zu finden, startet er die Navigationsapp und trägt den ersten der ihm genannten Räume ein. Um nicht die Treppen nutzen zu müssen, verbietet er in den Wegoptionen die Treppen.
+  \item Max Meister hat heute IM-Praktikum, das Praktikum findet in R1234 statt, er hat die Raumnummer im Stundenplan nachgeschaut und möchte sich nun bequem dorthin navigieren lassen. Max startet nun die Navigationsanwendung auf seinem Smartphone und tippt die Raumnummer ein. Nun startet er die Navigation.
+  \item Peter Redemann muss gleich eine Vorlesung halten, das Semester hat gerade erst begonnen und seine Vorlesung findet nun in einem anderen, ihm nicht gewohnten Raum statt. Um den Raum zu finden möchte er die Navigationsanwendung auf seinem Smartphone nutzen. Er startet also die Navigations-App und nennt die Raumnummer, welche via Spracheingabe erfasst wird. Mit den Worten “Navigation jetzt starten”, wird er nun per Sprachausgabe an sein Ziel geführt.
+  \item Jürgen Watt hat den Auftrag einige Lampen im dritten Stock zu tauschen, er war noch nie am Campus Gummersbach und weiß deshalb nicht wo es lang geht. Er fährt auf den Parkplatz des Campus, geht durch den Haupteingang hinein und stellt fest, dass er mit seinem schweren Werkzeugwagen nicht die Treppen hinauf kommt. Um eine alternative Route zu finden, startet er die Navigationsapp und trägt den ersten der ihm genannten Räume ein. Um nicht die Treppen nutzen zu müssen, verbietet er in den Wegoptionen die Treppen.
 \end{enumerate}
 
 \subsubsection*{Use Case Diagramm (Verhalten)}
@@ -81,10 +81,12 @@ Basierend auf speziellen Eigenschaften der zuvor konkretisierten User Profiles (
   \caption{Use Case Diagramm}
 \end{figure}
 
-\noindent Im Use Case Diagramm ist dargestellt welche Möglichkeiten der FH Besucher hat um mit der App (Campus Compass) zu interagieren. Es fällt auf, dass der Nutzer nur einen\footnote{Das Pflegen des Profils geschieht höchstwahrscheinlich nur bei der ersten Nutzung der Applikation} echten Use Case hat: \emph{Navigieren lassen}. Hieraus lässt sich für das Oberflächendesign ableiten, dass der Nutzer bei der Bedienung der Applikation möglichst schnell mit der Navigation beginnen möchte und eventuelle Details lieber während der Navigation einstellen wird. 
+Im Use Case Diagramm ist dargestellt welche Möglichkeiten der FH Besucher hat um mit der App (Campus Compass) zu interagieren. Es fällt auf, dass der Nutzer nur einen\footnote{Das Pflegen des Profils geschieht höchstwahrscheinlich nur bei der ersten Nutzung der Applikation} echten Use Case hat: \emph{Navigieren lassen}. Hieraus lässt sich für das Oberflächendesign ableiten, dass der Nutzer bei der Bedienung der Applikation möglichst schnell mit der Navigation beginnen möchte und eventuelle Details lieber während der Navigation einstellen wird.
+
+\newpage
 
 \subsubsection*{Aktivitätsdiagramme (Verhalten)}
-... bieten eine standardisierte Möglichkeit um die zuvor im Use-Case-Diagramm gezeigten Aktivitäten im Detail darzustellen. Sie zeigen die Aktionen, aus denen sich eine Aktivität zusammensetzt, sowie den Aktivitätsfluss.
+... bieten eine standardisierte Möglichkeit, um die zuvor im Use-Case-Diagramm gezeigten Aktivitäten im Detail darzustellen. Sie zeigen die Aktionen, aus denen sich eine Aktivität zusammensetzt, sowie den Aktivitätsfluss.
 
 \begin{figure}[hbt]
   \centering
@@ -93,7 +95,7 @@ Basierend auf speziellen Eigenschaften der zuvor konkretisierten User Profiles (
   \caption{Navigieren lassen}
 \end{figure}
 
-\noindent Das Use Case Diagramm \emph{Navigieren lassen}zeigt anschaulich den Verlauf einer Wegführung. Nach dem der FH Besucher seine Intention der App mitgeteilt hat, bekommt er eine Übersicht seiner Auswahl angezeigt. Nun beginnt ein Kreislauf, in dem der Anwender während der gesamten Wegführung die Möglichkeit hat Wegoptionen anzupassen, während die erforderlichen Schritte um das Ziel zu erreichen nacheinander aufgeführt werden. Gibt es keinen weiteren Schritt mehr, ist der Zielort erreicht.
+Das Use Case Diagramm \emph{Navigieren lassen} zeigt anschaulich den Verlauf einer Wegführung. Nach dem der FH Besucher seine Intention der App mitgeteilt hat, bekommt er eine Übersicht seiner Auswahl angezeigt. Nun beginnt ein Kreislauf, in dem der Anwender während der gesamten Wegführung die Möglichkeit hat Wegoptionen anzupassen, während die erforderlichen Schritte um das Ziel zu erreichen nacheinander aufgeführt werden. Gibt es keinen weiteren Schritt mehr, ist der Zielort erreicht.
 
 \begin{figure}[hbt]
   \centering
