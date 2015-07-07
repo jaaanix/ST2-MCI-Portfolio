@@ -1,7 +1,10 @@
 \chapter{Nutzungskontext}
 Bei der Analyse des Nutzungskontextes wird zunächst auf die beteiligten Personen und Gruppen eingegangen um anschließend zu untersuchen, mit welchen Erwartungen sie in welchen Szenarien an die Anwendung herantreten.
 
-\subsubsection*{Anwender(Akteure)}
+\subsubsection*{Problemraum}
+Als Ausgangszustand, gibt es einen FH-Besucher der hat das Ziel einen Ort aufgrund einer seinerseits bestehenden Intention, zu erreichen. Um dieses Ziel zu erreichen sind Aufgaben/Aktivitäten, auch Operationen genannt, nötig. Im konkreten Fall der Indoor-Navigation sind diese Aufgaben/Aktivitäten Positionswechsel, welche der Anwender mit Hilfe der App, zu Fuß erledigen muss. Sind alle Teilschritte vom Anwender erledigt worden, erreicht der Anwender den Endzustand, den Ort an dem er seine Intention erfüllen kann.
+
+\subsubsection*{Anwender (Akteure)}
 \begin{itemize}
   \item Studenten
   \item Mitarbeiter der FH Koeln (extern/intern)
@@ -29,29 +32,30 @@ Ein wesentlicher Punkt ist das sich die verschiedenen Kategorien überlappen, es
 \end{itemize}
 
 \subsubsection*{Mentale Modelle}
-Ein weiteres wichtiges Werkzeug in der Mensch-\-Computer-\-Interaktion ist der Einsatz von \emph{mentalen Modellen}, welche die Erwartungen und den internen Zustand des Nutzers bei der Bedienung der Anwendung beschreiben. \medskip
+Ein weiteres wichtiges Werkzeug in der Mensch-\-Computer-\-Interaktion ist der Einsatz von \emph{mentalen Modellen}, welche die Handlungen von Menschen aufgrund von Vorstellungen, Denkstrukturen und Erwartungen, welche sich im menschlichen Gedächtnisses befinden, beeinflussen und lenken.\medskip
 
 \noindent Der User erwartet...
 \begin{itemize}
-  \item dass die Navigationsanwendung ihn Schritt für Schritt an sein Ziel führt und ihm visuell und akustisch mitteilt wie er ans Ziel gelangt bzw. wie er seinen nächsten Schritt macht
+  \item dass die Navigationsanwendung ihn Schritt für Schritt an sein Ziel führt und ihm visuell und akustisch mitteilt wie er ans Ziel gelangt bzw. wie er seinen nächsten Schritt macht. Ein Teilschritt kann auch als eine Aufgabe oder Aktivität zum erreichen des Ziels (An einen Ort gelangen, um eine Intention zu erfüllen) angesehen werden.
   \item \textbf{nicht}, dass er sein Ziel anhand eines abgebildeten Weges auf einer 2D-Karte finden muss
   \item dass er auf Hindernisse auf seiner Zielroute hingewiesen wird und bei einer Blockade eine alternative Route geliefert bekommt
   \item dass er Orte auch nach Bezeichnungen oder ihrem Zweck suchen kann (Mensa, WC, \dots)
 \end{itemize}
 
 \subsubsection*{Persona}
-Personas stellen Prototypen für Gruppen von Nutzern mit konkret ausgeprägten Eigenschaften und einem konkreten Nutzungsverhalten dar. Sie werden genutzt um User-Stories zu definieren.
+Personas stellen Prototypen für Gruppen von Nutzern mit konkret ausgeprägten Eigenschaften und einem konkreten Nutzungsverhalten dar. Sie werden später genutzt um User-Stories zu definieren.
 
 \begin{itemize}
   \item \textbf{Max Mustertyp (25)}, Informatikstudent im 4. Semester, keine physischen Einschränkungen
   \item \textbf{Hans Herd (64)}, Firmenvertreter, Besucher an der FH, Rollstuhlfahrer
   \item \textbf{Hannes Pannes (20)}, Ingenieurwissenschaftenstudent, vor kurzem ein Bein gebrochen
   \item \textbf{Peter Meter (44)}, Dozent an der FH, Blind
-  \item \textbf{Ali Mali(26)}, Informatik-austauschstudent, hat sehr eingeschränkte deutsche Sprachkenntnisse
+  \item \textbf{Ali Mali(26)}, Informatik-Austauschstudent, hat sehr eingeschränkte deutsche Sprachkenntnisse
   \item \textbf{Jürgen Würgen (44)}, externer Elektriker, nutzt einen Werkzeugwagen 
 \end{itemize}
 
 \subsubsection*{User-Stories}
+Basierend auf speziellen Eigenschaften der zuvor konkretisierten User Profiles (Persona), sind im folgenden User-Stories definiert.
 \begin{itemize}
 \item Als FH-Besucher möchte ich mein Profil festlegen, um trotz meinen ggf. körperlichen Einschränkungen ans einen Zielort gelangen zu können.
 \item Als FH-Besucher möchte ich Wegoptionen wählen können, um unabhängig von meinem festgelegten Profil alternative Routen wählen zu können. (Beispiel: User ist faul oder temporär physich eingeschränkt)
