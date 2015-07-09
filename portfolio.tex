@@ -1,5 +1,6 @@
 \documentclass[abstracton]{scrreprt}
 \usepackage{style}
+\include{tex/glossar}
 \begin{document}
 \include{tex/deckblatt}
 \include{tex/expose}
@@ -13,4 +14,7 @@
 \include{tex/usabilityTest}
 \include{tex/systemverhalten}
 \include{tex/resumee}
+\glsaddall{}
+\setglossarystyle{altlist}
+\printglossaries{}
 \end{document}
