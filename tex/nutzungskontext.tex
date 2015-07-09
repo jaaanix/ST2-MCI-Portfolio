@@ -58,18 +58,22 @@ Personas stellen Prototypen für Gruppen von Nutzern mit konkret ausgeprägten E
 Basierend auf speziellen Eigenschaften der zuvor konkretisierten User Profiles (Persona), sind im folgenden User-Stories definiert.
 \begin{itemize}
 \item Als \gls{fhbesucher} möchte ich mein Profil festlegen, um trotz meinen ggf. körperlichen Einschränkungen ans einen Zielort gelangen zu können.
-\item Als \gls{fhbesucher} möchte ich Wegoptionen wählen können, um unabhängig von meinem festgelegten Profil alternative Routen wählen zu können. (Beispiel: User ist faul oder temporär physich eingeschränkt)
+\item Als \gls{fhbesucher} möchte ich Wegoptionen wählen können, um unabhängig von meinem festgelegten Profil alternative Routen wählen zu können. (Beispiel: User ist faul oder temporär physisch eingeschränkt)
 \item Als \gls{fhbesucher} möchte ich einen Zielort wählen können, um auch unabhängig von Raumnummern an einen \gls{ort} gelangen zu können.
-\item Als \gls{fhbesucher} möchte ich auch dann ans Ziel gelangen, wenn mir die \gls{raum}nummer nicht bekannt ist, dazu möchte ich ein Anliegen auswählen.
+\item Als \gls{fhbesucher} möchte ich auch dann ans Ziel gelangen, wenn mir die Raumnummer nicht bekannt ist, dazu möchte ich ein Anliegen auswählen.
 \item Als \gls{fhbesucher} mit entsprechendem Profil möchte ich meine Anliegen statt von Hand auch per Spracheingabe eingeben können
 \end{itemize}
 
+\newpage
+
 \subsubsection*{Szenarien}
 \begin{enumerate}
-  \item Max Meister hat heute IM-Praktikum, das Praktikum findet in R1234 statt, er hat die Raumnummer im Stundenplan nachgeschaut und möchte sich nun bequem dorthin navigieren lassen. Max startet nun die Navigationsanwendung auf seinem Smartphone und tippt die \gls{raum}nummer ein. Nun startet er die \gls{navigation}.
-  \item Peter Redemann muss gleich eine Vorlesung halten, das Semester hat gerade erst begonnen und seine Vorlesung findet nun in einem anderen, ihm nicht gewohnten \gls{raum} statt. Um den \gls{raum} zu finden möchte er die \gls{navigation}sanwendung auf seinem Smartphone nutzen. Er startet also die Navigations-App und nennt die Raumnummer, welche via Spracheingabe erfasst wird. Mit den Worten “\gls{navigation} jetzt starten”, wird er nun per Sprachausgabe an sein Ziel geführt.
-  \item Jürgen Watt hat den Auftrag einige Lampen im dritten Stock zu tauschen, er war noch nie am Campus Gummersbach und weiß deshalb nicht wo es lang geht. Er fährt auf den Parkplatz des Campus, geht durch den Haupteingang hinein und stellt fest, dass er mit seinem schweren Werkzeugwagen nicht die \gls{treppe}n hinauf kommt. Um eine alternative Route zu finden, startet er die Navigations-App und trägt den ersten der ihm genannten Räume ein. Um nicht die \gls{treppe}n nutzen zu müssen, verbietet er in den \gls{weg}optionen die \gls{treppe}n.
+  \item Max Meister hat heute IM-Praktikum, das Praktikum findet in R1234 statt, er hat die Raumnummer im Stundenplan nachgeschaut und möchte sich nun bequem dorthin navigieren lassen. Max startet nun die Navigationsanwendung auf seinem Smartphone und tippt die Raumnummer ein. Nun startet er die \gls{navigation}.
+  \item Peter Redemann muss gleich eine Vorlesung halten, das Semester hat gerade erst begonnen und seine Vorlesung findet nun in einem anderen, ihm nicht gewohnten \gls{raum} statt. Um den \gls{raum} zu finden möchte er die Navigationsanwendung auf seinem Smartphone nutzen. Er startet also die Navigations-App und nennt die Raumnummer, welche via Spracheingabe erfasst wird. Mit den Worten "`\gls{navigation} jetzt starten"', wird er nun per Sprachausgabe an sein Ziel geführt.
+  \item Jürgen Watt hat den Auftrag einige Lampen im dritten Stock zu tauschen, er war noch nie am Campus Gummersbach und weiß deshalb nicht wo es lang geht. Er fährt auf den Parkplatz des Campus, geht durch den Haupteingang hinein und stellt fest, dass er mit seinem schweren Werkzeugwagen nicht die \gls{treppe}n hinauf kommt. Um eine alternative Route zu finden, startet er die Navigations-App und trägt den ersten der ihm genannten Räume ein. Um nicht die \gls{treppe}n nutzen zu müssen, verbietet er in den Wegoptionen die \gls{treppe}n.
 \end{enumerate}
+
+\newpage
 
 \subsubsection*{Use Case Diagramm (Verhalten)}
 ... bietet eine standardisierte Möglichkeit um die zuvor genannten Nutzer und ihre Use Cases sowie die Beziehungen zwischen Use Cases untereinander darzustellen.
@@ -95,7 +99,7 @@ Im Use Case Diagramm ist dargestellt welche Möglichkeiten der \gls{fhbesucher} 
   \caption{Navigieren lassen}
 \end{figure}
 
-Das Use Case Diagramm \emph{Navigieren lassen} zeigt anschaulich den Verlauf einer Wegführung. Nach dem der \gls{fhbesucher} seine \gls{intention} der App mitgeteilt hat, bekommt er eine Übersicht seiner Auswahl angezeigt. Nun beginnt ein Kreislauf, in dem der Anwender während der gesamten Wegführung die Möglichkeit hat Wegoptionen anzupassen, während die erforderlichen \gls{schritt}e um das Ziel zu erreichen nacheinander aufgeführt werden. Gibt es keinen weiteren \gls{schritt} mehr, ist der Zielort erreicht.
+Das Aktivitätsdiagramm \emph{Navigieren lassen} zeigt anschaulich den Verlauf einer Wegführung. Nach dem der \gls{fhbesucher} seine \gls{intention} der App mitgeteilt hat, bekommt er eine Übersicht seiner Auswahl angezeigt. Nun beginnt ein Kreislauf, in dem der Anwender während der gesamten Wegführung die Möglichkeit hat Wegoptionen anzupassen, während die erforderlichen \gls{schritt}e um das Ziel zu erreichen nacheinander aufgeführt werden. Gibt es keinen weiteren \gls{schritt} mehr, ist der Zielort erreicht.
 
 \begin{figure}[hbt]
   \centering
@@ -104,4 +108,4 @@ Das Use Case Diagramm \emph{Navigieren lassen} zeigt anschaulich den Verlauf ein
   \caption{Profil anlegen}
 \end{figure}
 
-\noindent Das Use Case Diagramm \emph{Profil anlegen} beschreibt den Prozess der Profil Erzeugung für den Campuss Compass durch einen \gls{fhbesucher}. Der Anwender trägt \gls{schritt} für \gls{schritt} seine physischen Einschränkungen, sowie seine bevorzugte Sprache ein, woraufhin durch das Speichern des Profils ein Profil-Objekt in der App angelegt wird.
+\noindent Das Aktivitätsdiagramm \emph{Profil anlegen} beschreibt den Prozess der Profil Erzeugung für den Campuss Compass durch einen \gls{fhbesucher}. Der Anwender trägt \gls{schritt} für \gls{schritt} seine physischen Einschränkungen, sowie seine bevorzugte Sprache ein, woraufhin durch das Speichern des Profils ein Profil-Objekt in der App angelegt wird.
